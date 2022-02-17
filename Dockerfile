@@ -1,6 +1,7 @@
 FROM jupyter/scipy-notebook
 
-RUN conda install --yes -c conda-forge nodejs==16.13.2
+RUN conda install --yes -c conda-forge nodejs==16.13.2 \
+    && npm install -g yarn
 
 USER root
 
