@@ -1,5 +1,7 @@
 FROM jupyter/scipy-notebook
 
+RUN conda install --yes -c conda-forge nodejs==16.13.2
+
 USER root
 
 ### Gitpod user ###
