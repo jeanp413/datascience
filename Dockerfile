@@ -1,5 +1,5 @@
 FROM jupyter/scipy-notebook
 
-USER gitpod
+USER root
 
-RUN sudo usermod -a -G users gitpod
+RUN chown -R 33333:33333 "${CONDA_DIR}"
