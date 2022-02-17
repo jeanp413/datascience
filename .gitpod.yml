@@ -1,2 +1,5 @@
 image:
   file: Dockerfile
+vscode:
+  extensions:
+    - ms-python.python

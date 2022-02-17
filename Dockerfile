@@ -1,3 +1,3 @@
-FROM jupyter/datascience-notebook
+FROM jupyter/scipy-notebook
 
 USER root
