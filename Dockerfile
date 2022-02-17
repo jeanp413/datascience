@@ -1,3 +1,5 @@
 FROM jupyter/scipy-notebook
 
-USER root
+USER gitpod
+
+RUN sudo usermod -a -G users gitpod
