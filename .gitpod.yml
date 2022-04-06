@@ -2,7 +2,7 @@ image:
   file: Dockerfile
 tasks:
   - init: |
-      sleep 300
+      sleep 120
     name: dummy task
 github:
   prebuilds:
