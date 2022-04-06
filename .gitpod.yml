@@ -1,12 +1,5 @@
 image:
   file: Dockerfile
-tasks:
-  - init: |
-      sleep 120
-    name: dummy task
-github:
-  prebuilds:
-    master: true
 vscode:
   extensions:
     - ms-python.python
